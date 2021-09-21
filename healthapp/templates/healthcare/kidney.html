@@ -1,0 +1,189 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Chronic Kidney Disease Prediction">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Kidney Disease Prediction</title>
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/kidney.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.19.4, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="kidney">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-e631"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{% url 'home' %}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{% url 'contact' %}" style="padding: 10px 20px;">Contact Us</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'home' %}" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'contact' %}" style="padding: 10px 20px;">Contact Us</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-palette-1-light-3 u-section-1" id="sec-fbd3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-palette-2-dark-2 u-text-1">Find out whether you have kidney disease or not in just a click</h2>
+        <div class="u-form u-form-1">
+
+
+      <form method="POST">
+        {% csrf_token %}
+        <div class="u-form-group u-form-group-1">
+          <label for="text-d30c" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the age" id="text-d30c" name="age"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-1" required>
+        </div>
+        <div class="u-form-group u-form-group-2">
+          <label for="text-0762" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the white blood cells count" id="text-0762" name="wbc_count"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-2" required>
+        </div>
+        <div class="u-form-group u-form-group-3">
+          <label for="text-00cf" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the blood urea" id="text-00cf" name="blood_urea"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-3" required>
+        </div>
+      
+        <div class="u-form-group u-form-select u-form-group-4">
+          <label for="select-ad0c" class="u-form-control-hidden u-label"></label>
+          <div class="u-form-select-wrapper">
+            <select id="select-ad0c" name="appetite" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required>
+              <option selected disabled> Select the appetite</option>
+              <option value="Good">Good</option>
+              <option value="Poor">Poor</option>
+            </select>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret">
+              <path fill="currentColor" d="M4 8L0 4h8z"></path>
+            </svg>
+          </div>
+        </div>
+      
+      
+        <div class="u-form-group u-form-group-5">
+          <label for="text-94b0" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the blood glucose random" id="text-94b0" name="blood_glucose_random"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-5" required>
+        </div>
+      
+        <div class="u-form-group u-form-select u-form-group-6">
+          <label for="select-ad0c" class="u-form-control-hidden u-label"></label>
+          <div class="u-form-select-wrapper">
+            <select id="select-ad0c" name="pus_cell_clumps" class="u-border-1 u-border-grey-30 u-input u-input-rectangle"
+              required>
+              <option selected disabled> Select the pus cell clumps</option>
+              <option value="Not Present">Not Present</option>
+              <option value="Present">Present</option>
+            </select>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret">
+              <path fill="currentColor" d="M4 8L0 4h8z"></path>
+            </svg>
+          </div>
+        </div>
+      
+        <div class="u-form-group u-form-select u-form-group-7">
+          <label for="select-ad0c" class="u-form-control-hidden u-label"></label>
+          <div class="u-form-select-wrapper">
+            <select id="select-ad0c" name="hypertension" class="u-border-1 u-border-grey-30 u-input u-input-rectangle"
+              required>
+              <option selected disabled>Select the hypertension</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret">
+              <path fill="currentColor" d="M4 8L0 4h8z"></path>
+            </svg>
+          </div>
+        </div>
+      
+        <div class="u-form-group u-form-select u-form-group-8">
+          <label for="select-ad0c" class="u-form-control-hidden u-label"></label>
+          <div class="u-form-select-wrapper">
+            <select id="select-ad0c" name="anemia" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required>
+              <option selected disabled> Select the anemia</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret">
+              <path fill="currentColor" d="M4 8L0 4h8z"></path>
+            </svg>
+          </div>
+        </div>
+      
+        <div class="u-form-group u-form-group-9">
+          <label for="text-a09b" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the packed cell volume" id="text-a09b" name="packed_cell_volume"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-9" required>
+        </div>
+        <div class="u-form-group u-form-group-10">
+          <label for="text-7f4e" class="u-form-control-hidden u-label"></label>
+          <input type="number" placeholder="Enter the blood pressure" id="text-7f4e" name="blood_pressure"
+            class="u-border-2 u-border-grey-30 u-input u-input-rectangle u-input-10" required>
+        </div>
+        <div class="u-align-left u-form-group u-form-submit">
+          <a href="#" class="u-btn u-btn-submit u-button-style">Predict<br>
+          </a>
+          <input type="submit" value="submit" class="u-form-control-hidden">
+        </div>
+        <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+        <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors
+          then try again.</div>
+        <input type="hidden" value="" name="recaptchaResponse">
+      </form>
+
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img class="u-image u-image-default u-image-1" src="{% static 'assets/images/kidney_1.jpg' %}" alt="" data-image-width="259" data-image-height="194">
+      </div>
+    </section>
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-90 u-footer" id="sec-607e">
+      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-1">MACHINE LEARNING APPLICATION FOR HEALTHCARE</h4>
+        <h1 class="u-custom-font u-text u-text-2"></h1>
+        <h4 class="u-text u-text-3">Made by Chandradithya&nbsp; K G</h4>
+        <a href="{% url 'contact' %}" data-page-id="386514642" class="u-btn u-button-style u-btn-1">Contact Us</a>
+        <h4 class="u-text u-text-4">Copyright 2021</h4>
+      </div>
+    </footer>
+  </body>
+</html>
+
