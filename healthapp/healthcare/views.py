@@ -331,3 +331,4 @@ def covid(request):
 
     return render(request, 'healthcare/covid.html')
 
+ 
