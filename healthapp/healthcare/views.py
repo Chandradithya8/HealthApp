@@ -299,8 +299,9 @@ def covid(request):
     if request.method == "POST":
         fs = FileSystemStorage()
         fileobj = request.FILES['covid_image']
-
-        filepath = fs.save(fileobj.name,fileobj)
+        file_name = fileobj.name
+        file_name = file_name.replace(" ","")
+        filepath = fs.save(file_name,fileobj)
         filepath = fs.url(filepath)
         # print(type(filepath))
         filepath = filepath[1:]
