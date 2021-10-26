@@ -2,6 +2,7 @@
 # HEALTHAPP 🩺
 
 A simple Machine Learning and Deep Learning based application for predicting various diseases.
+<br>
 <img src="https://www.digitalauthority.me/wp-content/uploads/2018/12/shutterstock_400002673.jpg" width="1100" height="420" />
 
 ## DISCLAIMER ⚠️
