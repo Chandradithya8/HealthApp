@@ -83,6 +83,29 @@ You can view all the saved models (pickle files) in the "Saved_models" folder.
 - ### Home Page and Contact Page
 ![demo](https://media.giphy.com/media/tYoZMCZS1iujnb8aAd/giphy.gif)
 
+- ### Heart Disease Prediction
+![demo](https://media.giphy.com/media/2Z2TQAHQRi7v4wOJ8p/giphy.gif)
+
+- ### Diabetes Disease Prediction
+![demo](https://media.giphy.com/media/9xyxDyAlwEtXj1iQEs/giphy.gif)
+
+- ### Liver Disease Prediction
+![demo](https://media.giphy.com/media/DhYkRzHVMlVKtoHaal/giphy.gif)
+
+- ### Kidney Disease Prediction
+![demo](https://media.giphy.com/media/YAmUTRhdSPqAovC0FX/giphy.gif)
+
+- ### Cancer Disease Prediction
+![demo](https://media.giphy.com/media/S4sxNUao9mgSN1CT91/giphy.gif)
+
+- ### Covid Disease Prediction
+![demo](https://media.giphy.com/media/uf6G0NQkUoYH392tad/giphy.gif)
+
+- ### Contact Backend
+![demo](https://media.giphy.com/media/5YRwveMVj7ucMe6Hd7/giphy.gif)
+
+- ### Disease's Backend
+![demo](https://media.giphy.com/media/ElshSOzFVvQZhnJxoH/giphy.gif)
 
 ## RUN LOCALLY
 
