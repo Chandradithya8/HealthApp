@@ -73,7 +73,7 @@ You can view all the saved models (pickle files) in the "Saved_models" folder.
 <code><img height="30" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
 <code><img height="30" src="https://www.fullstackpython.com/img/logos/django.png"></code>
 
-<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png"></code>
+<code><img height="30" src="https://d20vrrgs8k4bvw.cloudfront.net/images/courses/logos/logo-color-tensorflow.png"></code>
 <code><img height="30" src="https://www.fullstackpython.com/img/logos/postgresql.jpg"></code>
 
 
