@@ -1,6 +1,6 @@
 import pickle
 import numpy as np
-
+import warnings
 from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
 
@@ -10,6 +10,7 @@ from .models import Kidney, Cancer, Covid
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
+warnings.filterwarnings("ignore")
 
 # Create your views here.
 
