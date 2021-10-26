@@ -80,7 +80,8 @@ You can view all the saved models (pickle files) in the "Saved_models" folder.
 
 ## Demo
 
-Insert gif or link to demo
+- ### Home Page and Contact Page
+![demo](https://media.giphy.com/media/tYoZMCZS1iujnb8aAd/giphy.gif)
 
 
 ## RUN LOCALLY
