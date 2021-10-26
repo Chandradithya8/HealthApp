@@ -1,7 +1,7 @@
 
 # HEALTHAPP 🩺
 
-A simple Machine Learning and Deep Learning based application for predicting various diseases.
+HEALTHAPP is a simple Machine Learning and Deep Learning based application for detecting various diseases. The application is capable of detecting diseases like heart disease, diabetes, lungs disease, kidney disease, breast cancer, and covid disease(using chest xray 💪). We use state-of-the-art machine learning and deep learning technologies to make the detection pretty accurate.
 <br>
 <img src="https://www.digitalauthority.me/wp-content/uploads/2018/12/shutterstock_400002673.jpg" width="1100" height="420" />
 
