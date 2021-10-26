@@ -2,7 +2,7 @@
 # HEALTHAPP 🩺
 
 A simple Machine Learning and Deep Learning based application for predicting various diseases.
-<img src="https://media.istockphoto.com/photos/stethoscope-and-drug-capsule-near-computer-laptop-picture-id693940582?k=20&m=693940582&s=612x612&w=0&h=Bvh4YgqxZHWO6TTNjYjHbltL9imbRv-oATxjEUemDFE=" width="1100" height="550" />
+<img src="https://media.istockphoto.com/photos/stethoscope-and-drug-capsule-near-computer-laptop-picture-id693940582?k=20&m=693940582&s=612x612&w=0&h=Bvh4YgqxZHWO6TTNjYjHbltL9imbRv-oATxjEUemDFE=" width="1100" height="420" />
 
 ## DISCLAIMER ⚠️
 
