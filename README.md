@@ -117,7 +117,7 @@ Then you will be able to use the application on your localhost.
 
 
 ## CONTRIBUTE 💻
-
+You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
 Please read [CONTRIBUTING.md](https://github.com/Chandradithya8/HealthApp/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
