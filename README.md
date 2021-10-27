@@ -81,31 +81,31 @@ You can view all the saved models (pickle files) in the "Saved_models" folder.
 ## Demo
 
 - ### Home Page and Contact Page
-![demo](https://media.giphy.com/media/tYoZMCZS1iujnb8aAd/giphy.gif)
+![demo](https://media.giphy.com/media/4EXBpKiQDWomWcl85n/giphy.gif)
 
 - ### Heart Disease Prediction
-![demo](https://media.giphy.com/media/2Z2TQAHQRi7v4wOJ8p/giphy.gif)
+![demo](https://media.giphy.com/media/pvjVMNp6ioqJpBnSgm/giphy.gif)
 
 - ### Diabetes Disease Prediction
-![demo](https://media.giphy.com/media/9xyxDyAlwEtXj1iQEs/giphy.gif)
+![demo](https://media.giphy.com/media/ha7TduSZte20jlq4HV/giphy.gif)
 
 - ### Liver Disease Prediction
-![demo](https://media.giphy.com/media/DhYkRzHVMlVKtoHaal/giphy.gif)
+![demo](https://media.giphy.com/media/gaZ1A9tMcSRuvR0akI/giphy.gif)
 
 - ### Kidney Disease Prediction
-![demo](https://media.giphy.com/media/YAmUTRhdSPqAovC0FX/giphy.gif)
+![demo](https://media.giphy.com/media/XHz6uIcr3U9QJUCamY/giphy.gif)
 
 - ### Cancer Disease Prediction
-![demo](https://media.giphy.com/media/S4sxNUao9mgSN1CT91/giphy.gif)
+![demo](https://media.giphy.com/media/ZbLEmLkRWRmBeRK0jn/giphy.gif)
 
 - ### Covid Disease Prediction
-![demo](https://media.giphy.com/media/uf6G0NQkUoYH392tad/giphy.gif)
+![demo](https://media.giphy.com/media/kunfjysIzOQTX2upJj/giphy.gif)
 
-- ### Contact Backend
-![demo](https://media.giphy.com/media/5YRwveMVj7ucMe6Hd7/giphy.gif)
+- ### Django backend authentication
+![demo](https://media.giphy.com/media/RbDRZZuXmRg3gyZBuB/giphy.gif)
 
-- ### Disease's Backend
-![demo](https://media.giphy.com/media/ElshSOzFVvQZhnJxoH/giphy.gif)
+- ### Data stored in the postgres sql database
+![demo](https://media.giphy.com/media/7ZLJtpXuqijDKD2laB/giphy.gif)
 
 ## RUN LOCALLY
 
