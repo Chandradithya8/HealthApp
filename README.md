@@ -151,7 +151,7 @@ Then you will be able to use the application on your localhost.
 
 ## FUTURE PLANS 📈
 
-- In this project I have added around 6 disease prediction models. In the future I will try to add even more disease prediction models for diseases like malaria, pneumonia, etc.
+- In this project I have added around 6 disease detection models. In the future I will try to add even more disease detection models for diseases like malaria, pneumonia, etc.
 
 
 
