@@ -114,7 +114,8 @@ Clone the project
 ```bash
    git clone https://github.com/Chandradithya8/HealthApp.git
 ```
-Extract all the files
+Extract all the files. 
+
 Open command prompt and go to the extracted files directory
 
 Go to "HealthApp-master" directory
