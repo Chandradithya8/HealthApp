@@ -134,7 +134,7 @@ When you type "dir" in the command prompt you should see the following files
 Install dependencies
 
 ```bash
-  $ pip install requirements.txt
+  $ pip install -r requirements.txt
 ```
 
 Go to the "healthapp" folder
