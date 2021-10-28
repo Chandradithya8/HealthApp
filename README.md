@@ -112,13 +112,13 @@ You can view all the saved models (pickle files) in the "Saved_models" folder.
 Clone the project
 
 ```bash
-  $ git clone https://github.com/Chandradithya8/HealthApp.git
+   git clone https://github.com/Chandradithya8/HealthApp.git
 ```
 
 Open command prompt and go to the project directory
 
 ```bash
-  $ cd HealthApp-master
+   cd HealthApp-master
 ```
 When you type "dir" in the command prompt you should see the following files
 
@@ -134,18 +134,18 @@ When you type "dir" in the command prompt you should see the following files
 Install dependencies
 
 ```bash
-  $ pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 
 Go to the "healthapp" folder
 
 ```bash
-  $ cd healthapp
+   cd healthapp
 ```
 
 Start the server
 ```bash
-  $ python manage.py runserver
+   python manage.py runserver
 ```
 Then you will be able to use the application on your localhost.
 
